@@ -4,7 +4,9 @@
   "description": "testing codebuild",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:verify": "npx cypress verify",
+    "cy:info": "npx cypress info"
   },
   "author": "",
   "license": "ISC",
